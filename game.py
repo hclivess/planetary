@@ -38,7 +38,7 @@ def generate(limit=1000):
     return random.randint(0, limit)
 
 
-def generate_position(limit=1000):
+def generate_position(limit=10000):
     x_pos = generate(limit)
     y_pos = generate(limit)
 
